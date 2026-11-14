@@ -1,0 +1,34 @@
+[
+	{
+		"id": "harbor",
+		"name": "Harbor Hawks",
+		"abbr": "HH",
+		"city": "Port Mason",
+		"colors": ["#2ba875", "#166047"],
+		"record": "0–0"
+	},
+	{
+		"id": "foundry",
+		"name": "Ironwood Foundry",
+		"abbr": "IF",
+		"city": "Ironwood",
+		"colors": ["#e36e55", "#79372f"],
+		"record": "0–0"
+	},
+	{
+		"id": "summit",
+		"name": "Summit Owls",
+		"abbr": "SO",
+		"city": "North Summit",
+		"colors": ["#76aee0", "#31547c"],
+		"record": "0–0"
+	},
+	{
+		"id": "comets",
+		"name": "Redwood Comets",
+		"abbr": "RC",
+		"city": "Redwood",
+		"colors": ["#e4ae54", "#765128"],
+		"record": "0–0"
+	}
+]

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#08110f" />
+  <title>Diamond Office — Baseball Sim</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/squad.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="brand" data-screen="home" aria-label="Return to dashboard"><span class="brand-mark">◆</span><span>DIAMOND<span class="muted">/</span>OFFICE</span></button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <button data-screen="home" class="nav-item active">Dashboard</button>
+        <button data-screen="manage" class="nav-item">Manage Teams</button>
+        <button data-screen="players" class="nav-item">Player Cards</button>
+      </nav>
+      <div class="season-pill"><span class="live-dot"></span> Exhibition // 2026</div>
+    </header>
+
+    <main>
+      <section id="screen-home" class="screen active"></section>
+      <section id="screen-manage" class="screen"></section>
+      <section id="screen-players" class="screen"></section>
+      <section id="screen-game" class="screen"></section>
+      <section id="screen-postgame" class="screen"></section>
+    </main>
+    <div id="toast" class="toast" role="status"></div>
+  </div>
+  <!-- Generated JSON fallback for opening this page directly from disk. -->
+  <script src="data/local-data.js"></script>
+  <script src="scripts/manage.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
